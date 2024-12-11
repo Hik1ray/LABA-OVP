@@ -1,0 +1,248 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    padding-left: 255px;
+    padding-right: 255px;
+}
+
+.side1{
+    text-align: center;
+    background-color: rgba(253, 84, 17, 0.767);
+    padding-bottom: 400px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+
+.white{
+    color:white;
+    font-size: 45px;
+    padding-top: 0px;
+    font-weight: bold;
+    text-shadow: 5px 2px 5px black;
+}
+
+.pequeno{
+    font-size: 20px;
+    color:black;
+    padding-top: 0px;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+
+.text-2{
+    text-align: left;
+    display: inline-block;
+    margin: 20px 100px 20px 10px;
+}
+
+.Youtube{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    float:right;
+}
+
+.center{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: Left;
+}
+
+span{
+    border-bottom: 2px dotted black;
+}
+
+.red{
+    display: inline-block;
+    border-radius: 0px 5px 0px 0px;
+    border:2px solid grey;
+    background-color: red;
+    color:white;
+    width: 200px;
+    height: 150px;
+}
+
+.orange{
+    display: inline-block;
+    border-radius: 0px 5px 0px 0px;
+    border:2px solid grey;
+    background-color: orange;
+    color:white;
+    width: 200px;
+    height: 150px;
+}
+
+.blue{
+    display: inline-block;
+    border-radius: 0px 5px 0px 0px;
+    border:2px solid grey;
+    background-color: blue;
+    color:white;
+    width: 200px;
+    height: 150px;
+}
+
+.green{
+    display: inline-block;
+    border-radius: 0px 5px 0px 0px;
+    border:2px solid grey;
+    background-color: green;
+    color:white;
+    width: 200px;
+    height: 150px;
+}
+
+.purple{
+    display: inline-block;
+    border-radius: 0px 5px 0px 0px;
+    border:2px solid grey;
+    background-color: purple;
+    color:white;
+    width: 200px;
+    height: 150px;
+}
+
+.text-table{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-size: 18px;
+}
+
+.structure{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    text-align: justify;
+    margin-left: 6px;
+}
+
+.money{
+    text-align: right;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.grey-structure{
+    background-color: grey;
+    margin-top: -7px;
+    text-align: center;
+
+}
+
+hr{
+	border: none;
+	border-top: 5px solid #363636;
+}
+
+.structure-bottom{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.space{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:white;
+    font-size: 15px;
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.space-left{
+    text-align: left;
+    border-bottom: none;
+}
+
+.space-right{
+    text-align: right;
+    border-bottom: none;
+}
+
+.top-sales-orange{
+    position: absolute;
+    top: 970px;
+    left: 429px;
+    background-color: #ffd700;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 0px 10px 10px 0px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.top-sales-red{
+    position: absolute;
+    top: 970px;
+    left: 640px;
+    background-color: #ffd700;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 0px 10px 10px 0px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.top-sales-blue{
+    position: absolute;
+    top: 970px;
+    left: 852px;
+    background-color: #ffd700;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 0px 10px 10px 0px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.top-sales-purple{
+    position: absolute;
+    top: 970px;
+    left: 1063px;
+    background-color: #ffd700;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 0px 10px 10px 0px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.top-sales-green{
+    position: absolute;
+    top: 970px;
+    left: 1274px;
+    background-color: #ffd700;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 0px 10px 10px 0px;
+    text-transform: uppercase;
+    text-align: left;
+}

@@ -1,0 +1,30 @@
+div{
+    border:2px solid rgb(255, 95, 2);
+    display: inline-block;
+    border-radius: 10px 0px 10px 0px;
+    margin-left: -4px;
+    text-align: left;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.box{
+    column-count: 4;
+    display: flex;
+}

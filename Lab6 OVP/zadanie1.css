@@ -1,0 +1,52 @@
+.light{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: monospace;
+    transition: 0.5s;
+    text-shadow: 
+    0 1px 0 #000000, 0 2px 0 #000000,
+    0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #000000, 0 6px 0 #000000,
+    0 7px 0 #ccc, 0 8px 0 #ccc,
+    0 20px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+body{
+    background-color: aqua;
+}
+
+.main{
+    justify-content: center;
+    display: flex;
+}
+
+.blanco{
+    position: absolute;
+    font: bold 60px monospace;
+    color:white;
+    text-align: center;
+    text-shadow:2px 2px 1px rgb(0, 0, 0), -4px -4px 0px rgb(0, 0, 0);
+    margin: -2px;
+}
+
+.normal{
+    position: absolute;
+    margin: 2px;
+    font: bold 60px monospace;
+    color:white;
+    text-align: center;
+    text-shadow:2px 2px 1px rgb(0, 0, 0),-4px -4px 0px rgb(0, 0, 0);
+
+}
+
+.black{
+    position: absolute;
+    margin: 0px;
+    font: bold 60px monospace;
+    color:white;
+    text-align: center;
+    text-shadow:2px 2px 1px #000000, -4px -4px 0px rgb(0, 0, 0);
+
+}

@@ -1,0 +1,25 @@
+
+img:hover{
+    transform: scale(1.5);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+img{
+    border:2.5px solid black;
+    margin: 25px 25px 25px 25px;
+    transition-property: all;
+    transition: all ease 1s;
+}
+
+.container{
+    background-image: url(fon.jpg);
+    border:2px solid black;
+    padding-top: 4px;
+    margin: 100px 300px 0px 300px;
+    display: center;
+}
+
+.mid:hover{
+    transform: scale(3, 1);
+}
